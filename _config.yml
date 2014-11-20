@@ -1,0 +1,54 @@
+prose:
+  rooturl: 'content'
+  metadata:
+    content:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          alterable: true
+          placeholder: "Choose Tags"
+          options:
+            - name: "izobraževanje"
+              value: "izobraževanje"
+            - name: "delavnice"
+              value: "delavnice"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Choose Datetime"
+          help: "Event date and time (2013-09-13 14:00)"
+      - name: "dates"
+        field:
+          element: "textarea"
+          label: "Choose Datetimes"
+          help: "List of event dates (- 2014-10-27 16:20  # visitors: 190)"
+      - name: "duration"
+        field:
+          element: "text"
+          label: "Choose duration"
+          help: "Event duration (04:00)"
+      - name: "location"
+        field:
+          element: "select"
+          label: "Select Location"
+          placeholder: "Location"
+          options:
+            - name: "kiberpipa"
+              value: "Kiberpipa"
+            - name: "kož"
+              value: "Mediateka KOŽ"
+      - name: "video"
+        field:
+          element: "text"
+          label: "Choose Video"
+          help: "Youtube video or playlist url"
+      - name: "gallery"
+        field:
+          element: "text"
+          label: "Choose Gallery"
+          help: "Facebook image gallery url"
