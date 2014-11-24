@@ -3,6 +3,7 @@
 pelican
 Markdown
 typogrify
+PyYAML
 
 # for various plugins
 BeautifulSoup4

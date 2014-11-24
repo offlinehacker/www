@@ -13,10 +13,75 @@ prose:
           alterable: true
           placeholder: "Choose Tags"
           options:
-            - name: "izobraževanje"
-              value: "izobraževanje"
-            - name: "delavnice"
-              value: "delavnice"
+            # Tip dogodka
+            - name: delavnica
+              value: delavnica
+            - name: druženje
+              value: druženje
+            - name: okrogla miza
+              value: okrogla miza
+            - name: predavanje
+              value: predavanje
+            - name: sestanek
+              value: sestanek
+
+            # Redne programske značke
+            - name: bitcoin
+              value: bitcoin
+            - name: coderdojo
+              value: coderdojo
+            - name: igrolog
+              value: igrolog
+            - name: filmšteka
+              value: filmšteka
+            - name: fsfe
+              value: fsfe
+            - name: kiberpipa
+              value: kiberpipa
+            - name: meet-up
+              value: meet-up
+            - name: pot
+              value: pot
+
+            # Ostale značke
+            - name: igre
+              value: igre
+            - name: oblikovanje
+              value: oblikovanje
+            - name: programiranje
+              value: programiranje
+            - name: za otroke
+              value: za otroke
+      - name: "category"
+        field:
+          element: "select"
+          label: "Add Tags"
+          alterable: true
+          placeholder: "Choose Category"
+          options:
+            # Redni program
+            - name: CoderDojo
+              value: CoderDojo
+            - name: Filmšteka
+              value: Filmšteka
+            - name: FSFE
+              value: FSFE
+            - name: Kiberpipa
+              value: Kiberpipa
+            - name: POT
+              value: POT
+            - name: Reciklarna
+              value: Reciklarna
+            - name: Servis
+              value: Servis
+
+            # Izredni program
+            - name: Igrolog
+              value: Igrolog
+            - name: Bitcoin
+              value: Bitcoin
+            - name: Zunanji
+              value: Zunanji
       - name: "date"
         field:
           element: "text"
