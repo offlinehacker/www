@@ -103,10 +103,12 @@ prose:
           label: "Select Location"
           placeholder: "Location"
           options:
-            - name: "kiberpipa"
+            - name: "Kiberpipa"
               value: "Kiberpipa"
-            - name: "kož"
+            - name: "Kož"
               value: "Mediateka KOŽ"
+            - name: "Učilnica"
+              value: "Računalniška učilnica KOŽ"
       - name: "video"
         field:
           element: "text"
