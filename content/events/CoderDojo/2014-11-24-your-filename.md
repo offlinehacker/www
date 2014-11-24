@@ -1,6 +1,6 @@
 ---
 published: false
-title: ""
+title: dgfdg
 category: CoderDojo
 location: Kiberpipa
 dates: null
