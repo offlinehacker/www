@@ -11,11 +11,6 @@ PROSE_FILE = '_config.yml'
 valid_tags, valid_categories = set(), set()
 
 
-def to_utf8(str):
-    # Python 2 compatibility
-    return str.decode('utf-8') if hasattr(str, 'decode') else str
-
-
 def create_valid_sets(pelican):
     """ Create valid sets. """
 
